@@ -3,15 +3,15 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <>
-      <nav className=" flex flex-wrap justify-between p-5 bg-white">
+      <nav className="flex flex-wrap justify-between p-5 bg-white sticky top-0 border-1-b-black-500 border-b border-gray-300">
         <div>
           <span className="text-red-600">SAMMANSLAGET</span>
         </div>
         <div className="flex space-x-2">
-          <Link className="text-black" href="/">
+          <Link className="text-black hover:text-red-600 hover:font-bold" href="/">
             HOME
           </Link>
-          <Link href="/about" className="text-black [font-variation-settings:'wght'_100, 'color'_red] hover:[font-variation-settings:'wght'_600] transition-[font-variation-settings] duration-200">
+          <Link href="/about" className="text-black hover:text-red-600 hover:font-bold">
             ABOUT
           </Link>
         </div>
