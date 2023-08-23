@@ -24,7 +24,7 @@ export default function Home() {
         <JumpingArrow />
       </div>
 
-      <div className="justify-center items-center h-screen mb-4">
+      <div className="h-screen mb-4">
       <h2 className="text-3xl ml-11 mt-20">
           STARTSIDA / INLOGG
         </h2>
