@@ -2,8 +2,14 @@
 
 export default function About() {
   return (
-    <div>
-      <h1 className="flex min-h-screen flex-col items-center">ABOUT</h1>
+    <div className = "bg-white h-screen min-h-full" >
+      <div className = "text-center">  
+      <h2 className="text-6xl p-5 text-black text-center">ABOUT US</h2>
+      <p className = "text-black">efowekfpewkgpwglepwglewpglewpglwelgwlgpwglwpglwpdlåew
+          vkewovkfewofkewofkewolkfceowvkewovkewofkeowfw
+          fewjifjwovkwpoflkewopfjkewopfkcmespkldvmewopvmewopvmwopvmwpo
+        </p>
+      </div>
     </div>
   );
 }
