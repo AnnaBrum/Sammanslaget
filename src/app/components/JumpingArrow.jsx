@@ -3,13 +3,13 @@ import { motion } from 'framer-motion';
 
 const JumpingArrow = () => {
   const jumpVariants = {
-    initial: { y: 0 },
+    initial: { y: 0},
     jump: { y: [-10, 10, -10] },
     repeat: Infinity
   };
 
   return (
-    <div className="flex h-screen items-center justify-center mb-2">
+    <div className="flex h-screen items-center justify-center">
       <motion.svg
     
         xmlns="http://www.w3.org/2000/svg"
