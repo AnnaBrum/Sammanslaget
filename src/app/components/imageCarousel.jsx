@@ -13,12 +13,14 @@ const ImageCarousel = ({ images }) => {
   };
 
   return (
-    <div className="relative w-full h-full p-15">
+    <div className= "relative w-full h-full p-20 ">
+      
       <img
         src={images[currentIndex]}
         alt="Carousel Image"
-        className="object-contain w-full h-full"
+        className="object-contain w-full h-full border-2 border-black p-2"
       />
+      
       
       
       <div className="absolute bottom-1 left-20 right-20 flex justify-between">

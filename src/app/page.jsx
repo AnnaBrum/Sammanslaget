@@ -27,9 +27,9 @@ export default function Home() {
       </div>
       
       <div className="justify-center items-center h-screen mt-4 mb-4">
-        <h2 className = "text-2xl text-center p-4 mb-4">PROBLEMLÖSNING EXEMPEL</h2>
+        <h2 className = "text-3xl text-center -mb-16 mt-20">PROBLEMLÖSNING EXEMPEL</h2>
         <ImageCarousel images={images} />
-        <h2 className = "text-xl text-center p-4 mb-4">KOD FRÅGOR EXEMPEL</h2>
+        <h2 className = "text-3xl text-center -mb-16 mt-20">KOD FRÅGOR EXEMPEL</h2>
         <ImageCarousel images = {imagesSecond} />
       </div>
     </main>
