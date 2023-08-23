@@ -13,12 +13,14 @@ const ImageCarousel = ({ images }) => {
   };
 
   return (
-    <div className="relative">
+    <div className="relative w-full h-full p-8">
       <img
         src={images[currentIndex]}
         alt="Carousel Image"
-        className="w-full h-auto"
+        className="object-cover w-full h-full"
       />
+      
+      
       <div className="absolute bottom-2 left-2 right-2 flex justify-between">
         <button
           onClick={prevImage}
@@ -33,7 +35,8 @@ const ImageCarousel = ({ images }) => {
           Next
         </button>
       </div>
-    </div>
+      </div>
+    
   );
 };
 
