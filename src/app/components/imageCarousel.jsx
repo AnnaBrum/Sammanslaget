@@ -1,5 +1,5 @@
-'use client';
-import React, { useState } from 'react';
+"use client";
+import React, { useState } from "react";
 
 const ImageCarousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -13,17 +13,14 @@ const ImageCarousel = ({ images }) => {
   };
 
   return (
-    <div className= "relative w-full h-full p-20 ">
-      
+    <div className="relative w-full h-full p-40 ">
       <img
         src={images[currentIndex]}
         alt="Carousel Image"
-        className="object-contain w-full h-full border-2 border-black p-2"
+        className="object-contain w-full h-full border-2 p-2"
       />
-      
-      
-      
-      <div className="absolute bottom-1 left-20 right-20 flex justify-between">
+
+      <div className="bottom-1 flex justify-between">
         <button
           onClick={prevImage}
           className="inline-block text-sm mt-8 border rounded-full tracking-wide border-blue-900 text-white bg-blue-900 px-6 py-3 hover:bg-white hover:text-blue-900 transition"
@@ -37,8 +34,7 @@ const ImageCarousel = ({ images }) => {
           Next
         </button>
       </div>
-      </div>
-    
+    </div>
   );
 };
 
