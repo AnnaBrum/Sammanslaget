@@ -11,6 +11,7 @@ export default function Home() {
         <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl uppercase font-black p-10 [font-variation-settings:'wght'_900] hover:[font-variation-settings:'wght'_10] transition-[font-variation-settings] duration-200 text-white">
           Urvalsprov Webbutveckling{" "}
         </h1>
+        <p></p>
         <div>
           
         </div>

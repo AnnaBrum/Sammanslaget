@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <>
-      <nav className=" flex flex-wrap justify-between p-5 bg-white">
+      <nav className="flex flex-wrap justify-between p-5 bg-white sticky top-0 border-1-b-black-500 border-b border-gray-300">
         <div>
           <span className="text-red-600">SAMMANSLAGET</span>
         </div>
