@@ -1,4 +1,6 @@
+"use client";
 import ImageCarousel from "./components/imageCarousel";
+import JumpingArrow from "./components/JumpingArrow";
 
 const images = [
   "/Startsida-lightmode.jpeg",
@@ -9,6 +11,8 @@ const imagesSecond = [
   "/Startsida-lightmode.jpeg",
   "/budget.png"
 ]
+
+
 export default function Home() {
   return (
     <main>
@@ -16,7 +20,7 @@ export default function Home() {
         <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl uppercase font-black p-10 [font-variation-settings:'wght'_900] hover:[font-variation-settings:'wght'_10] transition-[font-variation-settings] duration-200 text-white">
           Urvalsprov Webbutveckling{" "}
         </h1>
-        <p></p>
+        <JumpingArrow/>
         <div>
           
         </div>
