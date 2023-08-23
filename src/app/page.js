@@ -2,8 +2,10 @@
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center">
-      <h2>HOME</h2>
+    <main>
+      <div className = "bg-red-600 h-screen min-h-full">
+      <h1 className = "text-9xl p-3 text-white">Urvalsprov Webbutveckling </h1>
+      </div>
     </main>
   );
 }
