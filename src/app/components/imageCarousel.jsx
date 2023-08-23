@@ -22,13 +22,13 @@ const ImageCarousel = ({ images }) => {
       <div className="absolute bottom-2 left-2 right-2 flex justify-between">
         <button
           onClick={prevImage}
-          className="px-2 py-1 bg-gray-800 text-white rounded"
+          className="inline-block text-sm mt-8 border rounded-full tracking-wide border-blue-900 text-white bg-blue-900 px-6 py-3 hover:bg-white hover:text-blue-900 transition"
         >
           Previous
         </button>
         <button
           onClick={nextImage}
-          className="px-2 py-1 bg-gray-800 text-white rounded"
+          className="inline-block text-sm mt-8 border rounded-full tracking-wide border-blue-900 text-white bg-blue-900 px-6 py-3 hover:bg-white hover:text-blue-900 transition"
         >
           Next
         </button>
