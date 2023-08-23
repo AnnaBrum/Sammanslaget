@@ -8,14 +8,14 @@ export default function Navbar() {
       </div>
       <div className="flex space-x-2">
         <Link
-          className="text-black hover:text-red-600 hover:font-bold"
+          className="text-black hover:font-bold"
           href="/"
         >
           HOME
         </Link>
         <Link
           href="/about"
-          className="text-black hover:text-red-600 hover:font-bold"
+          className="text-black hover:font-bold"
         >
           ABOUT
         </Link>
