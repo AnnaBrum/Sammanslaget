@@ -16,8 +16,7 @@ export default function About() {
           </p>
         </div>
 
-        <div>
-          <Infocard></Infocard>
+        <div className="flex">
           <Infocard></Infocard>
           <Infocard></Infocard>
           <Infocard></Infocard>
