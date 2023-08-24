@@ -1,4 +1,4 @@
-import Infocard from "../components/Infocard";
+import Infocard from "../../components/Infocard";
 
 export default function About() {
   return (
@@ -18,7 +18,6 @@ export default function About() {
           </p>
           <br />
           <p className="text-xl max-w-2xl">Vi delade upp testet i tre delar:</p>
-          
         </div>
 
         <div className="flex flex-wrap">

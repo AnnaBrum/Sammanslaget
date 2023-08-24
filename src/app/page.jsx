@@ -1,6 +1,6 @@
 "use client";
-import ImageCarousel from "./components/ImageCarousel";
-import JumpingArrow from "./components/JumpingArrow";
+import ImageCarousel from "../components/ImageCarousel";
+import JumpingArrow from "../components/JumpingArrow";
 
 const imagesFirst = ["nodeDemo2.gif"];
 
