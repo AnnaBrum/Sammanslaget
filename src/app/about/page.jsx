@@ -1,4 +1,5 @@
-import Infocard from "../../components/Infocard";
+import Infocard from "../../components/InfoCard";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -18,6 +19,22 @@ export default function About() {
           </p>
           <br />
           <p className="text-xl max-w-2xl">Vi delade upp testet i tre delar:</p>
+          <div className="flexflex-col m-6">
+            <div className="p-4">
+              <h3 className="font-bold">
+                1. Korta kodfrågor med svarsalternativ
+              </h3>
+              <p>beskrivning</p>
+            </div>
+            <div className="p-4">
+              <h3 className="font-bold">2. Problemlösningsdel</h3>
+              <p>beskrivning</p>
+            </div>
+            <div className="p-4">
+              <h3 className="font-bold">3. Personlig video</h3>
+              <p>beskrivning</p>
+            </div>
+          </div>
         </div>
 
         <div className="flex flex-wrap">
@@ -53,6 +70,15 @@ export default function About() {
           />
         </div>
       </div>
+      {/* <div className="bg-white mt-8 h-40 mt-10">
+        <Link
+          className="text-black hover:font-bold"
+          href="
+          https://www.yrgo.se/"
+        >
+          Yrgos hemsida
+        </Link>
+      </div> */}
     </div>
   );
 }
