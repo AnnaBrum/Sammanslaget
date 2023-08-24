@@ -27,11 +27,11 @@ export default function Home() {
 
       <div className="pt-20">
         <h2 className="text-3xl ml-11 font-light">Startsida / Inlogg</h2>
-        <div className="flex flex-col px-40 py-20 ">
+        <div className="flex flex-col px-40 py-20  bg-blue-900">
           <img
             src="/Startsida-lightmode.jpeg"
             alt="Picture of the author"
-            className="object-contain w-full border-2 p-2"
+            className="object-contain w-full p-2"
           />
         </div>
       </div>
