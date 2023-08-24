@@ -9,12 +9,19 @@ export default function About() {
             om sidan
           </h2>
           <p className="text-xl max-w-2xl">
-            Vi fick uppgiften att göra ett förslag på ett nytt urvalsprov för en av våra utbildningar och valde det provet som sökande till utbildningen för Webbutveckling. Kriterierna som vi skulle förhålla oss till var tillgänglighet, kostnadseffektivitet, 
+            Vi fick uppgiften att göra ett förslag på ett nytt urvalsprov för en
+            av våra utbildningar och valde det provet som sökande till
+            utbildningen för Webbutveckling. Kriterierna som vi skulle förhålla
+            oss till var tillgänglighet, kostnadseffektivitet, säkerhet samt hur
+            väl testet matchade utbildningens krav. Dessutom skulle det gärna
+            innehålla moment som kunde hitta oslipade webbutvecklar-diamanter.
           </p>
+          <br />
+          <p className="text-xl max-w-2xl">Vi delade upp testet i tre delar:</p>
+          
         </div>
 
         <div className="flex flex-wrap">
-
           <Infocard
             profileimg={"anna.jpeg"}
             name="Anna Brumark"
