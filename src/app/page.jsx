@@ -1,5 +1,5 @@
 "use client";
-import ImageCarousel from "./components/imageCarousel";
+import ImageCarousel from "./components/ImageCarousel";
 import JumpingArrow from "./components/JumpingArrow";
 
 const images = [
