@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 
+
 const ImageCarousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -14,6 +15,7 @@ const ImageCarousel = ({ images }) => {
 
   return (
     <div className="relative w-full h-full px-40 py-20  bg-blue-900">
+      <p>Nodprogrammering</p>
       <img
         src={images[currentIndex]}
         alt="Carousel Image"
