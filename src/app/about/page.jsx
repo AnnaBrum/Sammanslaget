@@ -60,7 +60,7 @@ export default function About() {
           </div>
           <br />
           <p className="text-xl max-w-2xl">
-            För att göra testet så{" "}
+            För att göra testet så
             <span className="font-bold">tillgängligt</span> som möjligt erbjuds
             vissa hjälpmedel på förfrågan på plats, så som ljudisolerande
             hörlurar, skärmar mot distraktion eller skärmavläsare.
@@ -76,11 +76,11 @@ export default function About() {
           </p>
           <br />
           <p className="text-xl max-w-2xl">
-            I frågan om <span className="font-bold">kostnadseffektivitet</span>{" "}
+            I frågan om <span className="font-bold">kostnadseffektivitet</span>
             så kräver problemlösnings- och videodelen mer resurser i form av
             utvärdering. Men vi avgjorde att det var nödvändiga resurser för att
-            inte kompromissa med kvalitén och för att hitta eventuella "oslipade
-            diamanter".
+            inte kompromissa med kvalitén och för att hitta eventuella &quot;oslipade
+            diamanter&quot;.
           </p>
           <br />
           <p className="text-xl max-w-2xl">
