@@ -70,15 +70,6 @@ export default function About() {
           />
         </div>
       </div>
-      {/* <div className="bg-white mt-8 h-40 mt-10">
-        <Link
-          className="text-black hover:font-bold"
-          href="
-          https://www.yrgo.se/"
-        >
-          Yrgos hemsida
-        </Link>
-      </div> */}
     </div>
   );
 }

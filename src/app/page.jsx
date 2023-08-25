@@ -2,9 +2,9 @@
 import ImageCarousel from "../components/ImageCarousel";
 import JumpingArrow from "../components/JumpingArrow";
 
-const imagesFirst = ["nodeDemo2.gif"];
+const imagesFirst = ["nodeDemo2.gif", "prov.gif"];
 
-const imagesSecond = ["/Startsida-lightmode.jpeg", "/budget.png"];
+const imagesSecond = ["kodtest1.jpeg", "kodtest2.jpeg"];
 
 export default function Home() {
   return (
@@ -26,7 +26,7 @@ export default function Home() {
         <h2 className="text-3xl ml-11 font-light">Startsida / Inlogg</h2>
         <div className="flex flex-col px-40 py-20  bg-blue-900">
           <img
-            src="/Startsida-lightmode.jpeg"
+            src="/login.gif"
             alt="Picture of the author"
             className="object-contain w-full p-2"
           />
