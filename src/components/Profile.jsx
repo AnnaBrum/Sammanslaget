@@ -3,8 +3,8 @@ import React from "react";
 
 export default function Profile({profileimg, name, education, email}) {
   return (
-    <div className="pt-40 m-6">
-      <div className="flex rounded-full relative overflow-hidden w-16 md:w-26 lg:w-36 h-16 md:h-26 lg:h-36 ">
+    <div className="m-6 mt-20">
+      <div className="flex rounded-full relative mx-auto overflow-hidden w-16 md:w-26 lg:w-36 h-16 md:h-26 lg:h-36 ">
         <img
           src={profileimg}
           alt="portrait"
@@ -12,9 +12,9 @@ export default function Profile({profileimg, name, education, email}) {
         />
       </div>
       <div className="pt-10">
-        <h2>{name}</h2>
-        <p>{education}</p>
-        <span>{email}</span>
+        <h2 className="text-lg">{name}</h2>
+        <p className="text-sm">{education}</p>
+        <span className="text-sm">@{email}</span>
       </div>
     </div>
   );

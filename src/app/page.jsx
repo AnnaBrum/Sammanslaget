@@ -2,17 +2,22 @@
 import ImageCarousel from "../components/ImageCarousel";
 import JumpingArrow from "../components/JumpingArrow";
 
-const imagesFirst = ["nodeDemo2.gif", "prov.gif"];
+const imagesFirst = ["prov.gif", "nodeDemo2.gif"];
 const descriptionsFirst = [
-  "Uppgift: uppnå slutvärdet ovan med hjälp av att sammansluta noder av tal i noder med operatorer.",
-  "Frågor med svarsalternativ som testar logiskt tänkande.",
+  "Frågor med svarsalternativ som testar logiskt tänkande. Den första frågan testar förmågan att se mönster och sekventiellt tänkande. I den andra uppgiften ska eleven skriva instruktioner för en maskin.",
+  "Uppgift: uppnå slutvärdet ovan med hjälp av att sammansluta noder av tal i noder med operatorer."
 ];
 
 const imagesSecond = ["kodtest1.jpeg", "kodtest2.jpeg"];
 const descriptionsSecond = [
-  "Description for the first image",
-  "Description for the second image",
+
 ];
+
+const imagesThird = [
+  "confirmation-lightmode.jpeg",
+  "confirmation-darkmode.jpeg",
+];
+const descriptionsThird = ["Bekräftelse i Lightmode", "Bekräftelse i Darkmode"];
 
 export default function Home() {
   return (
@@ -32,11 +37,9 @@ export default function Home() {
 
       <div className="pt-20">
         <h2 className="text-3xl ml-11 font-light">Startsida / Inlogg</h2>
-        <div className="flex flex-col px-40 py-20  bg-blue-900">
-          <div className="bg-white p-8 ">
-            <p>beskrivning</p>
-          </div>
-          <div className="p-8 border max-h-max flex object-center">
+        <div className="flex flex-col px-40">
+          <div className="bg-white p-8 "></div>
+          <div className="p-8 border max-h-max flex object-center bg-blue-900">
             <img
               src="/login.gif"
               alt="Picture of the author"
@@ -46,8 +49,11 @@ export default function Home() {
         </div>
         <div className="pt-20">
           <h2 className="text-3xl ml-11 font-light">
-            1. Analogt test med kodfrågor
+            DEL 1. Analogt test med kodfrågor
           </h2>
+          <p className=" pt-5 pb-5 ml-11 max-w-2xl ">
+          Första delan av testet innehåller enklare och grundläggande kodfrågor, för att testa förståelsen och kunskapsnivån av kod. Detta görs på plats med penna och papper under övervakning av en testvakt.
+          </p>
           <ImageCarousel
             images={imagesSecond}
             descriptions={descriptionsSecond}
@@ -56,26 +62,31 @@ export default function Home() {
       </div>
       <div className="pt-20">
         <h2 className="text-3xl ml-11 font-light">
-          2. Test på problemlösningsförmåga
+          DEL 2. Test på problemlösningsförmåga
         </h2>
-
+        <p className=" pt-5 pb-5 ml-11">
+        Den här delen utförs också på plats i sal, men genom ett program som förinstalleras på deltagarens dator. Den består av ett antal frågor och övningar som syftar till att testa och utvärdera problemlösningsförmåga.
+        </p>
         <ImageCarousel images={imagesFirst} descriptions={descriptionsFirst} />
       </div>
       <div className="pt-20">
-        <h2 className="text-3xl ml-11 font-light">3. Personlig video</h2>
-        <div className="flex flex-col px-40 py-20  bg-blue-900">
-          <div className="bg-white p-8 ">
-            <p>beskrivning</p>
-          </div>
-          <div className="p-8 border max-h-max flex object-center">
+        <h2 className="text-3xl ml-11 font-light">DEL 3. Personlig video</h2>
+        <p className=" pt-5 pb-5 ml-11">
+        I del 3 ska den sökande skicka in en kort video för att svara på frågor kring samarbete. De ska reflektera kring kompromisser och hur de hanterar missförstånd och utmaningar i grupp, då en stor del av utbildningen och yrket utförs i team.
+        </p>
+        <div className="flex flex-col px-40 ">
+          <div className="p-8 border max-h-max flex object-center bg-blue-900">
             <img
               src="personligvideo.avif"
               alt="Man filming himself with mobile camera"
               className="object-contain p-2 mx-auto"
             />
           </div>
-
         </div>
+      </div>
+      <div className="pt-20">
+        <h2 className="text-3xl ml-11 mb-10 font-light">Bekräftelse / Utloggning</h2>
+        <ImageCarousel images={imagesThird} descriptions={descriptionsThird} />
       </div>
     </main>
   );
