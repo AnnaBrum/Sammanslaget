@@ -1,4 +1,4 @@
-import Infocard from "../../components/InfoCard";
+import Infocard from "../../components/Profile";
 import Link from "next/link";
 
 export default function About() {
