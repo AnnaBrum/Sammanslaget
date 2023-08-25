@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
 
-
 const ImageCarousel = ({ images, descriptions }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -14,14 +13,17 @@ const ImageCarousel = ({ images, descriptions }) => {
   };
 
   return (
-    <div className="relative w-full h-full px-40 py-20  bg-blue-900">
-      <p>{descriptions[currentIndex]}</p>
-      <img
-        src={images[currentIndex]}
-        alt="Carousel Image"
-        className="object-contain w-full p-2"
-      />
-
+    <div className="relative px-40 py-20 bg-blue-900">
+      <div className="bg-white p-8 ">
+        <p>{descriptions[currentIndex]}</p>
+      </div>
+      <div className="p-8 border max-h-140 flex object-center">
+        <img
+          src={images[currentIndex]}
+          alt="Carousel Image"
+          className="object-contain p-2 mx-auto"
+        />
+      </div>
       <div className="bottom-1 flex justify-between">
         <button
           onClick={prevImage}
