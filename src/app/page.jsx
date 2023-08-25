@@ -21,7 +21,7 @@ const descriptionsThird = ["Bekräftelse i Lightmode", "Bekräftelse i Darkmode"
 
 export default function Home() {
   return (
-    <main className="mb-80">
+    <main>
       <div className="bg-red-500 flex flex-col justify-between h-screen   --tw-bg-opacity:1">
         <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl uppercase font-black p-7 pt-40 [font-variation-settings:'wght'_900] hover:[font-variation-settings:'wght'_10] transition-[font-variation-settings] duration-200 text-white">
           Urvalsprov <br /> Webbutveckling
@@ -84,7 +84,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="pt-20">
+      <div className="pt-20 mb-80">
         <h2 className="text-3xl ml-11 mb-10 font-light">Bekräftelse / Utloggning</h2>
         <ImageCarousel images={imagesThird} descriptions={descriptionsThird} />
       </div>
