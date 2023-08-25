@@ -11,7 +11,8 @@ export default function About() {
           <p className="text-xl max-w-2xl">
             Sammanslaget är ett samarbetsprojekt mellan utbildningarna
             UX-design, Game Programming och Webbutveckling på Yrgo och vi som
-            har gjort den här sidan är studenter på de utbildningarna.
+            har gjort den här sidan är ett team av studenter från de
+            utbildningarna.
           </p>
           <br />
           <p className="text-xl max-w-2xl">
@@ -29,15 +30,15 @@ export default function About() {
               <h3 className="font-bold">
                 1. Korta kodfrågor med svarsalternativ
               </h3>
-              <p>
+              <p className=" max-w-2xl">
                 Det skrivna testet som görs på plats visar på grundläggande
-                kunskaper i html, css och allmänt om hur webben fungerar.{" "}
+                kunskaper i html, css och allmänt om hur webben fungerar.
               </p>
               <br />
             </div>
             <div className="p-4">
               <h3 className="font-bold">2. Problemlösningsdel</h3>
-              <p>
+              <p className=" max-w-2xl">
                 Problemlösning och logiskt tänkande är grundläggande egenskaper
                 som behövs för att lära sig skriva kod. Även om man aldirg har
                 kodat förut och får sämre resultat på kodfrågorna, ska man här
@@ -48,7 +49,7 @@ export default function About() {
             </div>
             <div className="p-4">
               <h3 className="font-bold">3. Personlig video</h3>
-              <p>
+              <p className=" max-w-2xl">
                 Videodelen - som utförs och skickas innan deltagande vid testet
                 på plats och syftar till att se hur personen svarar på frågor
                 som handlar om grupparbeten och kompromisser. Videon är bara
@@ -78,18 +79,16 @@ export default function About() {
             I frågan om <span className="font-bold">kostnadseffektivitet</span>{" "}
             så kräver problemlösnings- och videodelen mer resurser i form av
             utvärdering. Men vi avgjorde att det var nödvändiga resurser för att
-            inte kompromissa med kvalitén och för att hitta eventuella"oslipade
-            diamanter". Den oslipade diamanten tolkade vi som någon som kan
-            tänka kreativt och problemlösningsorienterat. Därför utformade vi
-            del 2 så att deltagaren kan förklara sina tankegångar och undvika
-            rena kryss-frågor, till skillnad från första delen.
+            inte kompromissa med kvalitén och för att hitta eventuella "oslipade
+            diamanter".
           </p>
           <br />
           <p className="text-xl max-w-2xl">
-          <span className="font-bold">Den oslipade diamanten</span> tolkade vi som någon som kan tänka kreativt
-            och problemlösningsorienterat. Därför utformade vi del 2 så att
-            deltagaren kan förklara sina tankegångar och undvika rena
-            kryss-frågor, till skillnad från första delen.
+            <span className="font-bold">Den oslipade diamanten</span> tolkade vi
+            som någon som kan tänka kreativt och problemlösningsorienterat.
+            Därför utformade vi del 2 så att deltagaren kan förklara sina
+            tankegångar och undvika rena kryss-frågor, till skillnad från första
+            delen.
           </p>
           <p className="text-xl max-w-2xl"></p>
         </div>

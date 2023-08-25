@@ -64,14 +64,14 @@ export default function Home() {
         <h2 className="text-3xl ml-11 font-light">
           DEL 2. Test på problemlösningsförmåga
         </h2>
-        <p className=" pt-5 pb-5 ml-11">
+        <p className=" pt-5 pb-5 ml-11 max-w-2xl">
         Den här delen utförs också på plats i sal, men genom ett program som förinstalleras på deltagarens dator. Den består av ett antal frågor och övningar som syftar till att testa och utvärdera problemlösningsförmåga.
         </p>
         <ImageCarousel images={imagesFirst} descriptions={descriptionsFirst} />
       </div>
       <div className="pt-20">
         <h2 className="text-3xl ml-11 font-light">DEL 3. Personlig video</h2>
-        <p className=" pt-5 pb-5 ml-11">
+        <p className=" pt-5 pb-5 ml-11 max-w-2xl">
         I del 3 ska den sökande skicka in en kort video för att svara på frågor kring samarbete. De ska reflektera kring kompromisser och hur de hanterar missförstånd och utmaningar i grupp, då en stor del av utbildningen och yrket utförs i team.
         </p>
         <div className="flex flex-col px-40 ">
